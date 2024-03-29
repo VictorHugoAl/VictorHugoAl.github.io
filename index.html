@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header> <!-- Area de navegação do site -->
+        <h1>Meu portfólio</h1>
+
+        <nav> <!-- Links de navegação -->
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Minhas formações</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+    
+    <!-- Inicio do assunto principal do site -->
+    <main>
+        <section id="sobre"> <!-- Area que fala brevemente sobre mim -->
+            
+            <!-- Minha foto -->
+            <img src="img/eu.jpeg" alt="Foto do Victor Hugo Alves Pedro" width="300">
+
+            <div>
+                <h2>Victor Hugo Alves Pedro</h2>
+
+                <p>Sou um devsenvolvedor Full-Stack, aqui ira encontrar <br> alguns dos projetos que realizei durante a minha jornada <br> de estudos, e minhas formações atuais. </p>
+            </div>
+            
+
+        </section>
+        
+        <section id="formacao"> <!-- Area que contem as minhas formações -->
+            <div>
+                <h2>Formações</h2>
+
+                <p>Atualmente estou matrículado na faculdade Uninter onde estou fazendo o curso de Análise e Desonvolvimento de Sistemas, <br> e para complementar os meus estudos, estou fazendo o curso Full-Stack da Onebitcode.</p>
+            </div>
+                <!-- Imagens das entidades educassionais -->
+            <a href="https://www.uninter.com" target="_blank"><img src="img/uninter.jpg" alt="" width="150px"></a>
+            <a href="https://www.onebitcode.com" target="_blank"><img src="img/onebit.jpeg" alt="" width="150px"></a>
+            
+            <h2>Projetos</h2>
+        </section>
+
+        <section id="portfolio"> <!-- Area de projetos que eu fiz -->
+            
+            <!-- Imagem do projeto -->
+            <a href="/projetos/praiaFernadoNoronha/" target="_blank"><img src="img/image.png" alt="" width="300px" height="360"></a>
+
+                <div>
+                    <h2>Fernando de Noronha</h2>
+                
+                    <P>Projeto fictício de inscrição para conhecer a praia de Fernando de Noronha</P>
+                </div>
+                
+            
+                <!-- Imagem do projeto -->
+                <a href="/projetos/petLife/index.html" target="_blank"><img src="img/petlife.png" alt="petlife" width="300px"></a>
+
+                <div>
+                    <h2>PetLife</h2>
+
+                    <p>PetLife é um site de veterinaria que é ensiando no minicurso da Onebitcode </p>
+                </div>
+                
+            
+            
+        </section>
+
+        <section id="contato"> <!-- Area de contato -->
+            <h2>Contato</h2>
+
+            <p>Ficou com alguma duvida ou gostaria de entrar em contato comigo? Só mandar um E-mail.</p>
+
+            <form action="">
+                <!-- Campo de nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <br><br>
+                
+                <!-- Campo de email-->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <!-- Campo para escrever a duvida ou algo que gostaria-->
+                <label for="duvida">Alguma duvida?</label>
+                <textarea name="duvida" id="duvida" cols="20" rows="3"></textarea>
+                <button type="submit">Enviar</button>
+
+                <br><br>
+
+                
+            </form>
+
+            <!-- Link direcionando para o meu E-mail -->
+            <a href="mailto:vivialvespedro@gmail.com.br">Entre em contato comigo</a>
+
+        </section>
+    </main>
+    
+    <footer>
+        <div id="copyright">
+            <p>Desenvolvido por <a href="">@victor</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
